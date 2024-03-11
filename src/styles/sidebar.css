@@ -5,7 +5,26 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+}
+
+.sidebar-menu{
+    display: flex;
+    flex-direction: column;
     gap: 20px;
+}
+
+.copyright-contnair{
+    height: 200px;
+}
+
+.copyright{
+    display: block;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
 }
