@@ -6,7 +6,10 @@ function Dashboard(){
     return(
         <div className="dashboard">
         <HeaderUser />
+        <div className='performance'>
         <LeftSide />
+        </div>
+        
         </div>
     )
 }

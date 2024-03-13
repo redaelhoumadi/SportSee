@@ -1,6 +1,8 @@
+import '../styles/activite.css'
+
 function Activite(){
 return (
-    <div className="activite_contnair">
+    <div className="activite-contnair">
 
     </div>
 )
