@@ -1,6 +1,7 @@
 import '../styles/dashboard.css'
 import HeaderUser from './dashboard_header'
 import LeftSide from './left_side'
+import RightSide from './right_side'
 
 function Dashboard(){
     return(
@@ -8,6 +9,7 @@ function Dashboard(){
         <HeaderUser />
         <div className='performance'>
         <LeftSide />
+        <RightSide />
         </div>
         
         </div>
