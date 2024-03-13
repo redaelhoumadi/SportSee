@@ -1,5 +1,5 @@
 .sidebar{
-    position: fixed;
+    /*position: fixed;*/
     width: 115px;
     background-color: #000;
     height: 100vh;
@@ -16,11 +16,15 @@
 }
 
 .copyright-contnair{
-    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
 
 .copyright{
     display: block;
+    width: 138px;
     color: #fff;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
